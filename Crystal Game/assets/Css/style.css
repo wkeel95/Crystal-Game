@@ -1,0 +1,25 @@
+.gem {
+    height: 200px;
+    width: 200px;
+}
+.instructions {
+    margin: 10px;
+    width: auto;
+}
+.header {
+    margin: 10px;
+}
+.gembox {
+    margin: 10px;
+    
+}
+.scorebox {
+    margin: 10px;
+}
+.winlossbox {
+    font-size: 20px;
+    height: 100px;
+    width: auto;
+    background-color: white;
+    margin: 10px;
+}

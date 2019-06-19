@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Css/style.css">
+
+
+
+</head>
+<body>
+    <!-- images, titles, instructions -->
+    <div class=section>
+        <div class=header><h1>Crystals Collector!</h1></div>
+        <div class=instructions>
+            <p>You will be given a random number at the start of the game.
+                <br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
+                <br>
+                You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+                <br>
+                The value of each crystal is hidden from you until you click on it.
+                <br>
+                Each time when the game starts, the game will change the values of each crystal.
+                <br>
+            </p>
+        </div>
+        <div class=counter>
+            <div id=compnum></div>
+            <div class=winlossbox>
+                <div>
+                    Wins: <span id="wins">0</span>
+                    <br>
+                    Losses: <span id="losses">0</span>
+                    <div>Goal: <span id="rannum">0</span></div>
+                </div>
+                <div id=losses></div>
+            </div>
+        </div>
+        <div class=gembox>
+            <button id="button" value= "red"><img class="gem" id= "red" src="assets/Images/red.jpeg" alt="red"></button>
+            <button id="button" value= "blue"><img class="gem" id= "blue" src="assets/Images/blue.png" alt="blue"></button>
+            <button id="button" value= "green"><img class="gem" id= "green" src="assets/Images/green.png" alt="green"></button>
+            <button id="button" value= "yellow"><img class="gem" id= "yellow" src="assets/Images/yellow.png" alt="yellow"></button>
+        </div>
+        <div class=scorebox>
+            <div class=scoretitlebox>
+                <h3>Your total score is:</h3>
+            </div>
+            <div id=score></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/Javascript/game.js"></script>
+ 
+        <!-- make gem buttons clickable -->
+        <!-- make them correspond to a randomly generated number between 1 and 12 -->
+        <!-- make them output their value and add them up -->
+        <!-- make a check to see when total value meets or exceeds computer value -->
+        <!-- js link -->
+    
+</body>
+</html>
